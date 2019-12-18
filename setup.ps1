@@ -1,17 +1,17 @@
-:: Install choco .exe and add choco to PATH
+#Install choco .exe and add choco to PATH
 @powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
 
-:: Install all the packages
+# Install all the packages
 
-:::: Browsers
+# Browsers
 choco install googlechrome -fy
 choco install firefox -fy
 
-::::Business
+#Business
 choco install slack -fy
 choco install office365business -fy
 
-:::: Utilities + other
+#Utilities + other
 choco install dropbox -fy
 choco install adobereader -fy
 choco install teamviewer  -fy
