@@ -1,3 +1,6 @@
+#$githubps = Invoke-WebRequest https://raw.githubusercontent.com/caseyccc/choco/master/setup.ps1
+#Invoke-Expression $($githubps.Content)
+
 #Install choco .exe and add choco to PATH
 Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 # Install all the packages
