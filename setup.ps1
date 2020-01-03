@@ -1,3 +1,5 @@
+#Below is the following Powershell command to begin the "image". Add Programs as needed with the same syntax. 
+
 #$githubps = Invoke-WebRequest https://raw.githubusercontent.com/caseyccc/choco/master/setup.ps1
 #Invoke-Expression $($githubps.Content)
 
