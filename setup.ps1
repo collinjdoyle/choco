@@ -20,3 +20,13 @@ choco install dropbox -fy
 choco install adobereader -fy
 choco install teamviewer  -fy
 choco install lastpass-chrome -fy
+choco install unifying -fy
+
+#Developer
+#choco install vscode
+#choco install visualstudio2019community -fy
+#choco install gimp -fy
+#choco install git -fy
+#choco install datagrip -fy
+#choco install lightshot -fy
+
