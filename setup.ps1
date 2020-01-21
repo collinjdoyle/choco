@@ -21,7 +21,7 @@ choco install adobereader -fy
 choco install teamviewer  -fy
 choco install lastpass-chrome -fy
 choco install unifying -fy
-choco install androidstudio -fy
+
 
 #Developer
 #choco install vscode
@@ -30,4 +30,5 @@ choco install androidstudio -fy
 #choco install git -fy
 #choco install datagrip -fy
 #choco install lightshot -fy
+#choco install androidstudio -fy
 
