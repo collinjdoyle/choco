@@ -1,6 +1,6 @@
 #Below is the following Powershell command to begin the "image". Add Programs as needed with the same syntax. 
 
-#$githubps = iwr https://raw.githubusercontent.com/caseyccc/choco/master/setup.ps1 -UseBasicParsing
+#$githubps = iwr https://raw.githubusercontent.com/collinjdoyle/choco/blob/master/setup.ps1 -UseBasicParsing
 #iex $($githubps.Content)
 
 #Install choco .exe and add choco to PATH
