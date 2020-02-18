@@ -21,6 +21,7 @@ choco install adobereader -fy
 choco install teamviewer  -fy
 choco install lastpass-chrome -fy
 choco install unifying -fy
+choco install notepadplusplus -fy
 
 
 #Developer
